@@ -9,7 +9,7 @@ public class Main {
 public static final Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args){
-        if (args.length >= 4){
+        if (args.length >= 5){
             boolean xmlCorrect = false;
             try{
                 logger.info("Start validation process of " + args[0] + " with " + args[1]);
